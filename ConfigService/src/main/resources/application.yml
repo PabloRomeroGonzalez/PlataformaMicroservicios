@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: configServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:C:/Users/pablo.romero/Documents/PabloGit/ConfigData
+          clone-on-start: true
+server:
+  port: 8001
+  

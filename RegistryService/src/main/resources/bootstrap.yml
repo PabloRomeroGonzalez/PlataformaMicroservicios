@@ -1,0 +1,14 @@
+---
+spring:
+  application:
+    name: discovery
+  cloud:
+    config:      
+      uri: http://localhost:8001
+      fail-fast: true
+      name: discovery
+  profiles:
+    active: default 
+logging:
+  level:
+    root: debug
