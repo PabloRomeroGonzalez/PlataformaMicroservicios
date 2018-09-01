@@ -5,7 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: file:C:/Users/pablo.romero/Documents/PabloGit/ConfigData
+          uri: file:D:\Proyectos\Microservicios\git\ConfigData
+          #uri: https://github.com/PabloRomeroGonzalez/ConfigData
           clone-on-start: true
 server:
   port: 8001
