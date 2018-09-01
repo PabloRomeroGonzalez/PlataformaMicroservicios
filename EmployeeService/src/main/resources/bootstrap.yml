@@ -3,4 +3,5 @@ spring:
     name: employee-service
   cloud:
     config:
-      uri: http://localhost:8088
+      uri: http://localhost:8001
+      fail-fast: true
